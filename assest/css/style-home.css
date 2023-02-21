@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+
+.faixa-inicial{
+    background:#071e26;
+    width: 1350px;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: Amanda;
+    src: url('./fonts/Buffalo.otf'),
+    url('./fonts/Buffalo.ttf')
+}
+
+header {
+    position:fixed;
+}
+
+.github{
+    margin-left: 850px;
+    padding: 20px;
+    color: white;
+}
+
+.linkedin{
+    margin: 5px;
+    color: white;
+}
+
+.titulo-principal{
+    display: inline-block;
+    background: rgb(0, 74, 173);
+    position: absolute;
+    width: 100%;
+}
+
+h1 {
+    font-family: Amanda;
+    font-weight: 100px;
+    color: white;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.faixa ul {
+	display: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.faixa ul li {
+
+    display: inline;
+	list-style-type: none;
+    padding-right: 45px;
+    color: white;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.foto-capa {
+    text-align: center;
+    margin-top: 120px;
+    height: 400px;
+    width: 1350px;
+    
+}
+
+footer {
+    text-align:center;
+    background: rgb(0, 74, 173);
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+}
